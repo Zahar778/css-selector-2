@@ -46,8 +46,11 @@
   <h2 class="updates_title">{{title}}</h2>
   {{#each list}}
   <div class="comment">
+    <div class="avatar"></div>
+    <div class="nickname-listtext-container">
     <p class="nickname">@{{nickname}}</p>
     <div class="list_text">{{description}}</div>
+    </div>
   </div>
   {{/each}}
     <a href="{{show_all.url}}" class="show_link">{{show_all.text}}</a>
